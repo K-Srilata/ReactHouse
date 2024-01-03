@@ -1,0 +1,39 @@
+/* AssignedHousekeeper.css */
+
+#assigned {
+  background: url('https://img.freepik.com/premium-vector/cleaning-service-flat-design-illustration-people-vacuum-wipe-dust-sweeping-floor-house-background-banner-poster_2175-2058.jpg?size=626&ext=jpg&ga=GA1.1.1413502914.1696550400&semt=ais');
+  text-align: center;
+  min-height: 150vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.content-wrapper {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.title {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.housekeeper-card {
+  background: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background: rgba(255, 255, 255, 0.6);
+}
+.assigned-list{
+  width: 400px;
+margin-left: 500px;
+
+
+}

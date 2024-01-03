@@ -1,0 +1,86 @@
+.Userregistration {
+  background: url('https://www.stathakis.com/hubfs/6-1.jpg');
+  height: 130vh;
+  background-repeat: no-repeat;
+  background-position: center; 
+  background-size: cover;
+}
+
+.register {
+  background-color: rgba(240, 240, 240, 0.6);
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  padding: 10px;
+  /* margin: 20px; */
+  max-width: 550px;
+  margin: 20px auto;
+  margin-bottom: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.formgroup1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+label {
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: black;
+}
+
+input {
+  padding: 15px;
+  margin-bottom: 15px;
+  width: 80%; /* Adjust the width as needed */
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  outline: none;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+  margin-top: 2px;
+}
+
+.button1 {
+  background-color: #DF826C;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button1:hover {
+  background-color: #B1C381;
+}
+
+.text1 {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  max-width: 400px;
+  margin: 20px;
+}
+
+.lasttext {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 999;
+}
+
+@media (max-width: 768px) {
+  .register {
+    max-width: 80%;
+  }
+}

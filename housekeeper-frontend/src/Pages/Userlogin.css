@@ -1,0 +1,42 @@
+.Userlogin {
+    background: url('https://www.bookingpressplugin.com/wp-content/uploads/2023/01/free-cleaning-business-software-thats-worth-using.webp');
+    height: 120vh;
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+}
+
+.mainform {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('https://www.bookingpressplugin.com/wp-content/uploads/2023/01/free-cleaning-business-software-thats-worth-using.webp');
+    height: 90vh;
+}
+
+.formgroup { 
+    background-color: rgba(237, 235, 255, 0.6); /* Adjust the alpha value for transparency */
+    width: 500px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 30px auto; /* Center the form horizontally */
+}
+
+.ptext {
+    margin-top: 10px;
+    margin-bottom: 1rem;
+    text-align: center; /* Center-align the text */
+}
+
+#submit {
+    width: 200px;
+    margin: auto; /* Center the submit button horizontally */
+}
+
+@media (max-width: 768px) {
+    .formgroup {
+      width: 80%;
+    }
+}

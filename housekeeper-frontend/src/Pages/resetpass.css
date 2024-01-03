@@ -1,0 +1,95 @@
+body {
+  background-image: url();
+  height: 100vh;
+  font-family: Arial, sans-serif;
+  background-color: whitesmoke;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0;
+}
+
+.navbar {
+  background-color: #333;
+  padding: 10px 0;
+}
+
+.navbar-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.navbar-menu {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+}
+
+.navbar-item {
+  margin-right: 20px;
+}
+
+.dropdown {
+  position: relative;
+}
+
+
+
+.dropdown-item {
+  padding: 10px;
+}
+
+.formgroup4 {
+  width: 80%;
+  margin: 20px auto;
+  
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  color: black;
+}
+
+.jsregister {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+}
+
+button {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.modale {
+  position: relative;
+  margin-top: 200px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgb(243, 238, 238);
+  z-index: 2;
+}
+
+.ok {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
